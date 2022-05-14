@@ -15,7 +15,7 @@ const Hero = () => {
             nisl tincidunt ut elementum turpis.
           </p>
           <div className="flex justify-center lg:justify-start items-center gap-[20px] lg:gap-[35px] mt-10">
-            <button className="bg-primary-or ange w-[150px] lg:w-[200px] h-[60px] lg:h-[70px] font-bold text-[23px] grid place-content-center rounded-2xl">
+            <button className="bg-primary-orange w-[150px] lg:w-[200px] h-[60px] lg:h-[70px] font-bold text-[23px] grid place-content-center rounded-2xl">
               Get Started
             </button>
             <div className="flex gap-2 items-center">

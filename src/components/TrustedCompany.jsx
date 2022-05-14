@@ -20,6 +20,7 @@ const TrustedCompany = () => {
             className="w-full h-full lg:w-[696px] lg:h-[195px]"
             src={logos}
             alt="logos"
+            loading="lazy"
           />
         </div>
       </div>

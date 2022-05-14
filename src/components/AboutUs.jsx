@@ -7,6 +7,7 @@ const AboutUs = () => {
       <div className="flex flex-col lg:flex-row items-center gap-[25px] lg:gap-[100px]">
         <div>
           <img
+            loading="lazy"
             className="w-[300px] lg:w-[598.92px] object-contain lg:h-[653px]"
             src={aboutUs}
             alt="aboutUs"
@@ -23,6 +24,7 @@ const AboutUs = () => {
                   className="inline-block w-[24px] h-[24px] mr-[13px]"
                   src={correct}
                   alt="correct"
+                  loading="lazy"
                 />
                 Leo erat magna feugiat non enim
               </li>
@@ -31,6 +33,7 @@ const AboutUs = () => {
                   className="inline-block w-[24px] h-[24px] mr-[13px]"
                   src={correct}
                   alt="correct"
+                  loading="lazy"
                 />
                 Leo erat magna feugiat
               </li>
@@ -39,6 +42,7 @@ const AboutUs = () => {
                   className="inline-block w-[24px] h-[24px] mr-[13px]"
                   src={correct}
                   alt="correct"
+                  loading="lazy"
                 />
                 Leo erat magna non enim
               </li>

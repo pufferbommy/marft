@@ -2,6 +2,7 @@ import React from 'react'
 import AboutUs from './components/AboutUs'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Ready from './components/Ready'
 import Testimonal from './components/Testimonal'
 import TrustedCompany from './components/TrustedCompany'
 import Video from './components/Video'
@@ -17,6 +18,7 @@ const App = () => {
       <Video />
       <WhatWeProvide />
       <Testimonal />
+      <Ready />
     </>
   )
 }

@@ -5,7 +5,7 @@ import bigProfile from '../assets/big-profile.jpg'
 
 const Testimonal = () => {
   return (
-    <div className="px-[30px] flex justify-center py-[100px] lg:px-[54.5px]">
+    <section className="px-[30px] flex justify-center py-[100px] lg:px-[54.5px]">
       <div className="flex items-center flex-row gap-[150px]">
         <div className="w-auto lg:w-[470px]">
           <div className="flex items-center gap-[15px]">
@@ -49,7 +49,7 @@ const Testimonal = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

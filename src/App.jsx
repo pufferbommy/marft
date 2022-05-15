@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from './components/AboutUs'
+import Blogs from './components/Blogs'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Ready from './components/Ready'
@@ -19,6 +20,7 @@ const App = () => {
       <WhatWeProvide />
       <Testimonal />
       <Ready />
+      <Blogs />
     </>
   )
 }

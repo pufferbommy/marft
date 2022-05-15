@@ -4,7 +4,7 @@ import GetStartedButton from './GetStartedButton'
 
 const Ready = () => {
   return (
-    <div className="bg-primary-black min-h-[589px] text-white relative grid place-content-center px-[30px] lg:px-[54.5px]">
+    <section className="bg-primary-black min-h-[589px] text-white relative grid place-content-center px-[30px] lg:px-[54.5px]">
       <div className="absolute pointer-events-none left-0 top-0">
         <img className="w-[269px] h-[239px]" src={waveTopLeft} alt="waveTopLeft" />
       </div>
@@ -27,7 +27,7 @@ const Ready = () => {
           alt="waveTopLeft"
         />
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -18,7 +18,7 @@ const Ready = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl
           tincidunt ut elementum turpis.
         </p>
-        <GetStartedButton />
+        <GetStartedButton marginTop={60} />
       </div>
       <div className="absolute pointer-events-none right-0 bottom-0">
         <img
